@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Dating Website</title> 
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+     
+ </head>
+ <body>
+      <!--HEADER-->
+      <section class="main">
+            <div class="main-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="row">
+                                <div class="col-md-2 mb-3 col-sm-12 d-flex justify-content-start align-items-start flex-md-column left-content">
+                                    <div class="d-flex flex-md-column gap-4  align-items-center justify-content-evenly">
+                                        <div class="logo">
+                                            <img src="images/logo.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <img src="images/chats.png" alt="">
+                                        <p class="nav-link">Chats</p>
+                                        </div>
+                                        <div class="d-flex justify-content-center align-items-center flex-column">
+                                            <img src="images/user.png" alt="">
+                                            <p class="nav-link">User</p>
+                                        </div>
+                                        <div class="d-flex flex-md-column align-items-center gap-4">
+                                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                                <img src="images/rectangle.png" alt="">
+                                                <p class="nav-link">Cards</p>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                                <img src="images/users.png" alt="">
+                                                <p class="nav-link">Blog</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                             </div>
+                                <div class="col-md-10 col-sm-12 right-content">
+                                    <div class="story d-flex justify-content-betwee align-items-center mb-4">
+                                        <h1 class="story">Add Your Story</h1> 
+                                        <div class="d-flex gap-lg-5 gap-md-4 align-items-center topbar">
+                                            <div>
+                                                <img src="images/search.png" alt="">
+                                                <p class="nav-link">Search</p> 
+                                            </div>
+                                            <div>
+                                                <img src="images/bell.png" alt=""> 
+                                                <p class="nav-link">Bell</p> 
+                                            </div>
+                                            <div>
+                                             <img src="images/Vector.png" alt="">
+                                             <p class="nav-link">More</p> 
+                                            </div>     
+                                      </div>              
+                                    </div> 
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div>
+                                         <img src="images/plus.png" class="plus"  alt="">
+                                      </div>
+                                      <div class="col-11">
+                                        <div class="slick-slider">
+                                            <img class="image" src="images/story.png" alt="">
+                                            <img class="image" src="images/circle.png" alt="">
+                                            <img class="image" src="images/circle1.png" alt="">
+                                            <img class="image" src="images/circle2.png" alt="">
+                                            <img class="image" src="images/story.png" alt="">
+                                            <img class="image" src="images/story.png" alt="">
+                                            <img class="image" src="images/circle.png" alt="">
+                                            <img class="image" src="images/circle1.png" alt="">
+                                            <img class="image" src="images/circle2.png" alt="">
+                                            <img class="image" src="images/story.png" alt="">
+                                            <img class="image" src="images/circle.png" alt="">
+                                            <img class="image" src="images/circle1.png" alt="">
+                                            <img class="image" src="images/circle2.png" alt="">
+                                            <img class="image" src="images/story.png" alt="">
+                                            <img class="image" src="images/story.png" alt="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <ul class="nav nav-tabs mt-2" 
+                                            id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active all" 
+                                                    id="home-tab" 
+                                                    data-bs-toggle="tab" data-bs-target="#home" 
+                                                    type="button" role="tab" 
+                                                    aria-controls="home" aria-selected="true">All
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" 
+                                                    id="profile-tab" 
+                                                    data-bs-toggle="tab" data-bs-target="#profile" 
+                                                    type="button" role="tab" 
+                                                    aria-controls="profile" aria-selected="false">Online
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" 
+                                                    id="contact-tab" 
+                                                    data-bs-toggle="tab" data-bs-target="#contact" 
+                                                    type="button" role="tab" 
+                                                    aria-controls="contact" aria-selected="false">New Daters
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            
+                                            <button class="nav-link" 
+                                                    id="contact-tab" 
+                                                    data-bs-toggle="tab" data-bs-target="#about" 
+                                                    type="button" role="tab" 
+                                                    aria-controls="contact" aria-selected="false">Liked You
+                                            </button>
+                                        </li>
+                                            </button>
+                                        </li>
+                                        </ul>
+                                        <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" 
+                                            id="home" 
+                                            role="tabpanel" aria-labelledby="home-tab">
+                                            <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                         </div>
+                                         <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                     </div>
+                                            
+                                        </div>
+                                        <div class="tab-pane fade" 
+                                            id="profile" 
+                                            role="tabpanel" aria-labelledby="profile-tab">
+                                            <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                         </div>
+                                         <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                         </div>
+                                     </div>
+                                      <div class="tab-pane fade" 
+                                            id="contact" 
+                                            role="tabpanel" aria-labelledby="contact-tab">
+                                            <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                         </div>
+                                         <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                         </div>
+                                       </div>
+                                        <div class="tab-pane fade" 
+                                            id="about" 
+                                            role="tabpanel" aria-labelledby="contact-tab">
+                                            <div class="row justify-content-center justify-content-md-start">
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card2.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="col-lg-3 col-6">
+                                                    <img src="images/card1.png" class="w-100" alt="">
+                                                </div>
+                                          </div>
+                                     </div>
+                                 </div> 
+                             </div>
+                         </div>
+                       </div>
+                  </div>     
+             </div>   
+          </div>
+     </section> 
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $('.slick-slider').slick({
+            slidesToShow: 5,
+            infinite: true, // Set infinite to true for looping
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed: 2000,
+            dots:false,
+        
+           
+            
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots:false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true
+                }
+                
+            }
+            ]
+        });
+        });
+
+        $(document).ready(function(){
+            $('.slick-slider .details').slick({
+                slidesToShow: 2,
+                infinite: true, // Set infinite to true for looping
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                
+                responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                    }
+                }
+                ]
+            });
+            
+            });
+
+
+     
+     </script>
+ </body>
+</html>
